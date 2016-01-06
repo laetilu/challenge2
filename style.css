@@ -8,12 +8,32 @@
 
 body {
   background-image:url(bg.png);
+  font family:"Helvetica Neue", Helvetica;
+  font-size: 13px;
+  color:#555555;
+
+}
+.titreheader {
+  margin-left: 5px;
+}
+header h3 {
+  font-weight: lighter;
+}
+h1 {
+  font-size: 52px;
+  font-family: "Terminal Dosis";
+  margin-bottom: -10px;
+}
+h2 {
+  font-size: 28px;
+  font-family: "Terminal Dosis";
 }
 #container {
   width: 994px;
   margin-left: 25px;
   border: 1px #f4f4f4 solid;
   background-color: #ffffff;
+
 }
 header {
   margin-top: 50px;
@@ -40,7 +60,8 @@ ul {
 
 }
 ul li {
-  margin-left: 2px;
+  margin-left: 10%;
+
 
 
 }
@@ -48,9 +69,23 @@ ul li a{
   text-decoration: none;
   display: block;
   float: left;
-  padding:17px;
-  margin-left: 5px;
+  padding:20px;
+  /*margin-left: 5px;*/
+  color:#555555;
+  font-weight: bolder;
 }
+nav ul li ul {
+  display:none;
+  position:absolute;
+}
+nav ul li:hover ul {
+ display:block;
+ background-color: #fafafa;
+ height: 33px;
+ }
+/*nav li:hover ul li {
+ float:none;
+ }*/
 main {
   width:900px;
   margin-left: 25px;

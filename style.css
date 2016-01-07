@@ -12,6 +12,7 @@ body {
   font-size: 13px;
   color:#555555;
 
+
 }
 .titreheader {
   margin-left: 5px;
@@ -30,15 +31,16 @@ h2 {
 }
 #container {
   width: 994px;
-  margin-left: 25px;
+  padding: 50px 47px 10px 47px;
   border: 1px #f4f4f4 solid;
   background-color: #ffffff;
+  margin: 20px auto;
 
 }
 header {
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   margin-bottom: 25px;
-  margin-left: 25px;
+  /*margin-left: 25px;*/
   width: 900px;
 
 }
@@ -53,47 +55,57 @@ nav {
   height:59px;
 
 }
+/*menu:*/
+
 ul {
   list-style-type: none;
   margin:0px;
   padding:0px;
 
-}
-ul li {
-  margin-left: 10%;
-
-
 
 }
+
 ul li a{
   text-decoration: none;
   display: block;
   float: left;
-  padding:20px;
+  padding:25px;
   /*margin-left: 5px;*/
   color:#555555;
   font-weight: bolder;
+
 }
+
+/*sous menu:*/
+
+
 nav ul li ul {
   display:none;
   position:absolute;
+  top: 0px;
+
 }
 nav ul li:hover ul {
  display:block;
  background-color: #fafafa;
- height: 33px;
+
  }
-/*nav li:hover ul li {
- float:none;
- }*/
+nav li:hover ul li a{
+ height: 33px;
+ width: 66px;
+ /*display:block;*/
+ }
+
+
+
 main {
   width:900px;
-  margin-left: 25px;
+  /*margin-left: 25px;*/
 }
 .image1 {
   height:508px;
   width:900px;
-  /*margin-bottom: 38px;*/
+  margin-bottom: 38px;
 }
 .cloud {
   text-align: center;
@@ -104,13 +116,18 @@ main {
 }
 .titrefooter {
   text-align: center;
+
 }
 footer {
   height:235px;
   width: 900px;
   background-color: #fafafa;
   margin-bottom: 25px;
-  margin-left: 25px;
+  /*margin-left: 25px;*/
+}
+
+footer ul, h3{
+  margin-left: 10px;
 }
 section {
   width: 25%;
